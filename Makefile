@@ -3,3 +3,6 @@ run:
 
 down: 
 	docker-compose down
+
+test:
+	docker exec -it react-app npm run test
